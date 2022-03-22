@@ -19,4 +19,16 @@ router.get("/",async(req,res)=>{
     }
 })
 
+router.get("/check",async(req,res)=>{
+    try{
+        res.json({
+            status : 200,
+            message : "We are ok to proceed!!!!!"
+        })
+    }catch (err){
+        console.error(err)
+        return res.status(500).send("Server Error")
+    }
+})
+
 module.exports = router;
