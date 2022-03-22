@@ -1,0 +1,26 @@
+{
+  "name": "LaboratoryBackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSPEngineeringSolutions/LaboratoryBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SSPEngineeringSolutions/LaboratoryBackend/issues"
+  },
+  "homepage": "https://github.com/SSPEngineeringSolutions/LaboratoryBackend#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
